@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cpimg{
+    height: 35px;
+    margin: 10px 15px;
+}
+
+.cpname{
+    display: flex;
+}
+
+.cphead1{
+    display: block;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 14px;
+}
+
+.cphead2{
+    color: gray;
+    display: block;
+}
+
+.active{
+    font-weight: 600;
+}
+
+.icons{
+    margin-right: 30px;
+}
+
+.icon1{
+    margin: 4px;
+    padding: 4px 4.5px;
+    font-size: 17px;
+    background: black;
+    color: white;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+.icon2{
+    margin: 4px;
+    padding: 5px 6px;
+    font-size: 17px;
+    background: black;
+    color: white;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+.icon3{
+    margin: 4px;
+    padding: 4px;
+    font-size: 17px;
+    background: black;
+    color: white;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+.icon4{
+    margin: 4px;
+    padding: 4px 4.5px;
+    font-size: 17px;
+    background: black;
+    color: white;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+.url{
+    margin-right: 44px;
+    margin-left: 14px;
+    margin-top: 4px;
+}
+
+.bg-body-tertiary{
+    background: #ecdaf9 !important;
+}
+
+.row1{
+    background:#f6bbf6;
+    padding: 14px 160px;
+    height: 271px;
+}
+
+.row2{
+    background:#ecdaf9;
+    padding: 30px 140px;
+}
+
+.row3{
+    padding: 20px 190px;
+    background-color:#f6bbf6;
+}
+
+.btn{
+    background: #ecdaf9;
+    height: 40px;
+    width: 120px;
+    border: 2px solid plum;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.btn:hover{
+    background-color: white !important;
+    border: 3px solid plum !important;
+}
+
+.dial{
+    margin-left: 30px;
+    margin-top: 80px;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.chead1{
+    font-size: 66px;
+}
+
+.chead2{
+    font-size: 41px;
+}
+
+.cpara{
+    margin-top: 39px;
+}
+
+.col1{
+    text-align: center;
+}
+
+.cimg{
+    height: 570px;
+    /* margin: 0px 57px; */
+}
+
+@media screen and (min-width:420px) and (max-width:700px) {
+    .row1 {
+        padding: 14px 13px;
+    }
+    .chead1 {
+        font-size: 65px;
+        text-align: center;
+    }
+    .chead2 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .cpara {
+        margin-top: 36px;
+        font-size: 17px;
+    }
+    .row3 {
+        padding: 20px 65px;
+        text-align: center;
+    }
+    .row2 {
+        padding: 0px 20px;
+        height: 251px;
+    }
+    .icons{
+        display: none !important;
+    }
+    .cimg {
+        height: 238px;
+        margin: 10px 66px;
+    }
+    .col1{
+        text-align: center;
+    }
+}
